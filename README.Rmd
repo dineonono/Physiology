@@ -165,8 +165,5 @@ glm (G$median_house_price_USD ~ G$interest_rate, data = G)
   # F-statistic: 6.974 on 1
 
 ##KOLMOGOROV-SMIRNOV AND ANDERSON DARLING TESTS WERE USED TO TEST FOR PARAMETRIC AND NON-PARAMETRIC DATA
-getwd()
-
-
 
 ```
