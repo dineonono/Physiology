@@ -1,9 +1,5 @@
----
-output:
-  html_document: default
-  word_document: default
----
 
+---
 title: "Assignment 1"
 author: "Dineo Nono"
 date: "21 February 2017"
