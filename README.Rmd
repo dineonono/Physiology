@@ -1,5 +1,9 @@
 
+<<<<<<< HEAD
 ---
+=======
+
+>>>>>>> c64f94cc922d5def6a2521f8de239fc143180a91
 title: "Assignment 1"
 author: "Dineo Nono"
 date: "21 February 2017"
@@ -18,12 +22,17 @@ tail(anscombe)
 summary(anscombe)
 
 ```
+<<<<<<< HEAD
 ```{r xy_plot, echo=FALSE, fig.height=8, fig.width=8, fig.align='center'}
+=======
+```{r xy_plot, echo=FALSE, fig.height=8, fig.width=8, fig.align='center', dev='svg', fig.path= './figures/'}
+>>>>>>> c64f94cc922d5def6a2521f8de239fc143180a91
 data("anscombe")
 anscombe
 with(anscombe, plot(x1, y1))
 abline(lm(y1 ~ x1, data = anscombe))
 ```
+<<<<<<< HEAD
 ```{r data_import, echo=TRUE}
 library(readr)
 df<-data.frame(read.csv("analgesic.csv",header=T))
@@ -161,5 +170,10 @@ glm (G$median_house_price_USD ~ G$interest_rate, data = G)
   # F-statistic: 6.974 on 1
 
 ##KOLMOGOROV-SMIRNOV AND ANDERSON DARLING TESTS WERE USED TO TEST FOR PARAMETRIC AND NON-PARAMETRIC DATA
+=======
+
+
+
+>>>>>>> c64f94cc922d5def6a2521f8de239fc143180a91
 
 ```
