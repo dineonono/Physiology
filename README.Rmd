@@ -173,7 +173,4 @@ glm (G$median_house_price_USD ~ G$interest_rate, data = G)
 =======
 
 
-
->>>>>>> c64f94cc922d5def6a2521f8de239fc143180a91
-
 ```
